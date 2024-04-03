@@ -34,7 +34,7 @@ export default function NavBar() {
                                 <a className="nav-link" href="https://advogacia.netlify.app/">Advogacia</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="QuemSouEu">Quem sou eu!</a>
+                                <a className="nav-link" href="https://renatomarquesdavid.netlify.app/">Quem sou eu!</a>
                             </li>
                           
 
