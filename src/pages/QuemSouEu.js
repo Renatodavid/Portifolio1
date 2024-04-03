@@ -148,13 +148,13 @@ export default function QuemSouEu() {
                 </button>
               </div>
               <p>
-              Explorando trilhas e pescando, encontro minha paz na natureza, onde cada aventura é uma nova história a ser contada.
+                Explorando trilhas e pescando, encontro minha paz na natureza, onde cada aventura é uma nova história a ser contada.
               </p>
-              
+
             </div>
-         
-          
-          <div className="col-md-6">
+
+
+            <div className="col-md-6">
               <h2>Amizade pela carreira</h2>
 
               <div id="demo" className="carousel slide" data-bs-ride="carousel">
@@ -164,9 +164,8 @@ export default function QuemSouEu() {
                   <button type="button" data-bs-target="#demo" data-bs-slide-to="0" className="active"></button>
                   <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
                   <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                  
-                </div>
 
+                </div>
 
                 <div className="carousel-inner">
                   <div className="carousel-item active">
@@ -181,7 +180,6 @@ export default function QuemSouEu() {
                   </div>
                 </div>
 
-
                 <button className="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
                   <span className="carousel-control-prev-icon"></span>
                 </button>
@@ -191,56 +189,55 @@ export default function QuemSouEu() {
               </div>
 
               <p>
-              A amizade verdadeira é como ter um irmão não biológico, 
-              alguém com quem podemos contar em todas as situações, 
-              compartilhar alegrias, tristezas e crescer juntos, 
-              fortalecendo laços que perduram uma vida inteira.
+                A amizade verdadeira é como ter um irmão não biológico,
+                alguém com quem podemos contar em todas as situações,
+                compartilhar alegrias, tristezas e crescer juntos,
+                fortalecendo laços que perduram uma vida inteira.
               </p>
-              
+
             </div>
-            </div>
-            <div className="col-md-12">
-              <h2>Família</h2>
+          </div>
+          <div className="col-md-12">
+            <h2>Família</h2>
 
-              <div id="demo" className="carousel slide" data-bs-ride="carousel">
+            <div id="demo" className="carousel slide" data-bs-ride="carousel">
 
+              <div className="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" className="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
 
-                <div className="carousel-indicators">
-                  <button type="button" data-bs-target="#demo" data-bs-slide-to="0" className="active"></button>
-                  <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                  <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                  
-                </div>
-
-
-                <div className="carousel-inner">
-                  <div className="carousel-item active">
-                    <img src="assets/img/amigos1.jpg" alt="renato marques david" className="d-block w-100" ></img>
-                    <figcaption>Diogo, Renato e Abner</figcaption>
-                  </div>
-                  <div className="carousel-item">
-                    <img src="assets/img/familiarenato.jpg" alt="renato marques david" className="d-block w-100"></img>
-                  </div>
-                  <div className="carousel-item">
-                    <img src="assets/img/familia.jpg" alt="renato marques david" className="d-block w-100"></img>
-                  </div>
-                </div>
-
-
-                <button className="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                  <span className="carousel-control-prev-icon"></span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                  <span className="carousel-control-next-icon"></span>
-                </button>
               </div>
 
-              <p>
+
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <img src="assets/img/amigos1.jpg" alt="renato marques david" className="d-block w-100" ></img>
+                  <figcaption>Diogo, Renato e Abner</figcaption>
+                </div>
+                <div className="carousel-item">
+                  <img src="assets/img/familiarenato.jpg" alt="renato marques david" className="d-block w-100"></img>
+                </div>
+                <div className="carousel-item">
+                  <img src="assets/img/familia.jpg" alt="renato marques david" className="d-block w-100"></img>
+                </div>
+              </div>
+
+
+              <button className="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span className="carousel-control-prev-icon"></span>
+              </button>
+              <button className="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span className="carousel-control-next-icon"></span>
+              </button>
+            </div>
+
+            <p>
               A família é a base sólida que nos sustenta nos momentos difíceis e
-               nos celebra nos momentos felizes, formando laços inquebráveis de amor e apoio.
-              </p>
-             
-            </div>
+              nos celebra nos momentos felizes, formando laços inquebráveis de amor e apoio.
+            </p>
+
+          </div>
         </main>
       </div>
 
