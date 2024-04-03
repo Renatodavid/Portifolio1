@@ -1,0 +1,98 @@
+.footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.footer h2,
+.footer h3 {
+    color: #fff;
+}
+
+.footer p,
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #f8f9fa;
+}
+
+.footer .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer .nav_footer li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer .nav_footer li a {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+.footer .nav_footer li a:hover {
+    color: #f8f9fa;
+    text-decoration: underline;
+}
+
+.footer .list_social {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.footer .item-list-social {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer .item-list-social:last-child {
+    margin-right: 0;
+}
+
+.footer .lnk-network {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .lnk-network:hover {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+.footer .icon-social_facebook,
+.footer .icon-social_instagram,
+.footer .fa-twitter,
+.footer .fa-linkedin,
+.footer .fa-github {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.footer .icon-social_facebook:hover,
+.footer .icon-social_instagram:hover,
+.footer .fa-twitter:hover,
+.footer .fa-linkedin:hover,
+.footer .fa-github:hover {
+    color: #f8f9fa;
+}
+
+.footer .hidden-xs {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .footer .hidden-xs {
+        display: block;
+    }
+}

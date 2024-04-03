@@ -1,0 +1,131 @@
+/* navbar.css */
+
+/* Estilos para o Navbar */
+.navbar {
+    background-color: #f8f9fa; 
+    margin: 20px;
+    border-radius: 2px solid #0206fe;
+    box-shadow: 0 2px 4px rgba(0, 8, 254, 0.967); 
+}
+
+/* Estilos para os itens do menu do Navbar */
+.navbar-nav > li > a {
+    color: #333333; 
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 20px solid #020ef3;
+    box-shadow: 0 2px 4px rgba(4, 92, 234, 0.928);
+    border-radius: 10px;
+    background-color: #f9f9fa;
+    transition: all 0.3s ease;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: center;
+    display: inline-flex;
+    box-shadow: #333;
+    border-radius: 1px;
+}
+
+#download-btn1{
+    color: #333333; 
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 20px solid #020ef3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.928);
+    border-radius: 10px;
+    background-color: #ece5e5;
+    transition: all 0.3s ease;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+    margin-right: center;
+    display: inline-flex;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    color: #007bff; 
+    /* Cor do texto dos itens do menu ao passar o mouse ou focar */
+}
+
+/* Estilos para o menu do Navbar quando expandido */
+.navbar-collapse {
+    background-color: #1c04ef; 
+    border-radius: 5px; 
+   
+    /* Cor de fundo do menu expandido */
+}
+
+/* Estilos para o ícone do menu no modo responsivo */
+.navbar-toggle .icon-bar {
+    background-color: #007bff; /* Cor dos ícones do botão de alternância no modo responsivo */
+}
+
+/* Media queries para tornar a navbar responsiva */
+@media screen and (max-width: 1200px) {
+    .navbar {
+        margin: 10px;
+    }
+    .navbar-nav > li > a {
+        margin: 10px;
+        padding: 25px;
+        height: auto;
+    }
+    li {
+        margin-right: 10px;
+    }
+    ul {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 798px) {
+    .navbar {
+        margin: 5px;
+    }
+    .navbar-nav > li > a {
+        margin: 10px;
+        padding: 5px;
+        height: auto;
+    }
+    li {
+        margin-right: 5px;
+    }
+    ul {
+        margin-right: 5px;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    .navbar {
+        margin: 5px;
+    }
+    .navbar-nav > li > a {
+        margin: 10px;
+        padding: 5px;
+        height: auto;
+    }
+    li {
+        margin-right: 5px;
+    }
+    ul {
+        margin-right: 5px;
+    }
+
+}

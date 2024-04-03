@@ -1,0 +1,75 @@
+/* Importar fontes do Google Fonts para ter uma aparência mais elegante */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Adicionar uma cor de fundo */
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #007bff; /* Adicionar cor azul */
+}
+
+p {
+    margin: 20px;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.carousel-item img {
+    border-radius: 10px; /* Adicionar bordas arredondadas às imagens do carousel */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adicionar sombra às imagens do carousel */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #007bff; /* Alterar a cor das setas de controle do carousel */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%; /* Ajustar o tamanho das setas de controle */
+}
+
+.carousel-indicators {
+    bottom: -40px; /* Ajustar a posição dos indicadores do carousel */
+}
+
+.carousel-indicators button {
+    background-color: #007bff; /* Alterar a cor dos indicadores do carousel */
+}
+
+.carousel-indicators .active {
+    background-color: #0056b3; /* Alterar a cor do indicador ativo do carousel */
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Adicionar sombra ao container */
+    padding: 20px;
+}
+
+.row {
+    margin-bottom: 30px;
+}
