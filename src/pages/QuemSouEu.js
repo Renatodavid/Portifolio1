@@ -164,7 +164,7 @@ export default function QuemSouEu() {
                   <button type="button" data-bs-target="#demo" data-bs-slide-to="0" className="active"></button>
                   <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
                   <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                  <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                  
                 </div>
 
 
@@ -178,9 +178,6 @@ export default function QuemSouEu() {
                   </div>
                   <div className="carousel-item">
                     <img src="assets/img/amigosmec1.jpg" alt="renato marques david" className="d-block w-100"></img>
-                  </div>
-                  <div className="carousel-item">
-                    <img src="assets/img/certi.jpg" alt="renato marques david" className="d-block w-100"></img>
                   </div>
                 </div>
 
@@ -212,7 +209,7 @@ export default function QuemSouEu() {
                   <button type="button" data-bs-target="#demo" data-bs-slide-to="0" className="active"></button>
                   <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
                   <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                  <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                  
                 </div>
 
 
@@ -220,10 +217,6 @@ export default function QuemSouEu() {
                   <div className="carousel-item active">
                     <img src="assets/img/amigos1.jpg" alt="renato marques david" className="d-block w-100" ></img>
                     <figcaption>Diogo, Renato e Abner</figcaption>
-                  </div>
-                   <div className="carousel-item ">
-                    <img src="assets/img/familia3.jpg" alt="renato e lili" className="d-block w-100" ></img>
-                    <figcaption>Renato e Liliane</figcaption>
                   </div>
                   <div className="carousel-item">
                     <img src="assets/img/familiarenato.jpg" alt="renato marques david" className="d-block w-100"></img>
