@@ -31,7 +31,7 @@ export default function NavBar() {
                                 <a className="E-commerce" href="https://redcomerce.netlify.app/">E-Commerce</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="https://advogacia.netlify.app/">Advogacia</a>
+                                <a className="nav-link" href="https://advogacia.netlify.app/">Advocacia</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="https://renatomarquesdavid.netlify.app/">Quem sou eu!</a>
